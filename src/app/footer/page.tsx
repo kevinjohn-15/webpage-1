@@ -35,19 +35,19 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-25">
           <div>
             <h1 className="text-white text-xl font-semibold">Host Events</h1>
-            <div className="space-y-5 p-2"><p className=" text-m">
+            <div className="space-y-5 p-2">
             <ul className="space-y-3">
               <li>Publish Your Events</li>
               <li>Promote Your Events</li>
               <li>Sell Tickets Online</li>
               <li>Pricing Plans</li>
             </ul>
-              </p>
+              
               </div>
           </div>
           <div>
             <h1 className="text-white text-xl font-semibold">Discover Events</h1>
-            <div className="space-y-5 p-2"><p className=" text-m">
+            <div className="space-y-5 p-2">
             <ul className="space-y-3">
               <li>Events for You</li>
               <li>Virtual Events</li>
@@ -55,12 +55,12 @@ export default function Footer() {
               <li>Event Discovery App</li>
               <li>Write for Us</li>
             </ul>
-              </p>
+              
               </div>
           </div>
           <div>
             <h1 className="text-white text-xl font-semibold">Explore</h1>
-            <div className="space-y-5 p-2"><p className=" text-m">
+            <div className="space-y-5 p-2">
             <ul className="space-y-3">
               <li>Event Listing Plugin</li>
               <li>Media Kit</li>
@@ -68,7 +68,7 @@ export default function Footer() {
               <li>Support Center</li>
               <li>Blog</li>
             </ul>
-              </p>
+              
               </div>
           </div>
           <div>

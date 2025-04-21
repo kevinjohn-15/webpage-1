@@ -59,13 +59,13 @@ export default function HeaderPage() {
       <div className="flex items-center space-x-4">
       <Button variant="link" className="text-blue-400 hover:underline p-0 h-auto">Create Event</Button>
       <DropdownMenu>
-      <DropdownMenuTrigger><Button variant="link" className="text-blue-400 hover:underline p-1 h-auto">SIGN IN</Button></DropdownMenuTrigger>
+      <DropdownMenuTrigger>SIGN IN</DropdownMenuTrigger>
       <DropdownMenuContent>
-      <DropdownMenuLabel><Button variant="ghost">Email</Button></DropdownMenuLabel>
+      <DropdownMenuLabel>Email</DropdownMenuLabel>
       <DropdownMenuSeparator />
-      <DropdownMenuLabel><Button variant="ghost">Phone Number</Button></DropdownMenuLabel>
+      <DropdownMenuLabel>Phone Number</DropdownMenuLabel>
       <DropdownMenuSeparator />
-      <DropdownMenuLabel><Button variant="ghost">Google</Button></DropdownMenuLabel>
+      <DropdownMenuLabel>Google</DropdownMenuLabel>
       </DropdownMenuContent>
       </DropdownMenu>
       
@@ -153,16 +153,16 @@ export default function HeaderPage() {
           </div>
           <section>
       <div className="relative height-screen">
-      <div className="absolute inset-0 z-0 h-[50vh]">
+      <div>
       <Image src="/chennai.jpeg" alt="Chennai Landmark"
           layout="fill"
           objectFit="cover"
-          quality={100}
-          className="opacity-90"/>
+          className="opacity-90"
+          />
       </div>
       <div className="relative z-10 flex h-full flex-col items-start justify-center p-6 md:p-12">
       <h1 className="text-4xl text-white font-bold mb-4">Events in Chennai</h1>
-      <p className="text-m text-white font-weight: 700 max-w-xl mb-6">
+      <p className="text-m text-white font-weight:700 max-w-xl mb-6">
       Events in Chennai
       Earlier known as Madras, the capital city of Tamil Nadu is a wonder in itself! There are a lot of things in store at events in Chennai. The vibrant arts, educational seminars, music events, and historic exhibitions are some of the highlights of events in Chennai. Festivals and events in Chennai include Pongal, The Tamil New Year, and the Natyanjali Dance Festival, to name a few.
       Chennai is the most popular tourist destination on the southern fringes for its ancient temples and natural wonders. Explore the beautiful city’s events with us.
