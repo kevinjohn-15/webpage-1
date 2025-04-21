@@ -1,4 +1,3 @@
-// components/EventCard.tsx
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 interface EventCardProps {

@@ -18,9 +18,9 @@ export default function Footer() {
         <Input
             type="Email"
             placeholder="Enter your email here"
-            className="w-60% md:w-150 h-10 p-2 rounded-l-lg border-solid border-black text-black-800 bg-white"
+            className="w-40% md:w-150 h-10 p-2 rounded-l-lg border-solid border-black text-black-800 bg-white"
           />
-          <Button variant="secondary" className="space-x-3">Subscribe</Button>
+          <div className="flex justify-end p-3"><Button variant="secondary">Subscribe</Button></div>
         </div>
         </div>
         <Separator className="w-full my-5"/>
